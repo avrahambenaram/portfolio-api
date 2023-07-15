@@ -16,6 +16,23 @@
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+      <Content Remove="src\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="src\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="src\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="src\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="domain\" />
     </ItemGroup>
 
 </Project>
