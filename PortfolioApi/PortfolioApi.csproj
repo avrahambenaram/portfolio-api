@@ -23,6 +23,10 @@
     <ItemGroup>
       <Compile Remove="src\**" />
       <Compile Remove="domain\**" />
+      <Compile Include="Domain\Entities\User.cs" />
+      <Compile Include="Domain\ValueObjects\Email.cs" />
+      <Compile Include="Domain\ValueObjects\Name.cs" />
+      <Compile Include="Domain\ValueObjects\Password.cs" />
     </ItemGroup>
 
     <ItemGroup>
