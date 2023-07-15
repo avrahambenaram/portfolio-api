@@ -17,22 +17,22 @@
         <Link>.dockerignore</Link>
       </Content>
       <Content Remove="src\**" />
+      <Content Remove="domain\**" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Remove="src\**" />
+      <Compile Remove="domain\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="src\**" />
+      <EmbeddedResource Remove="domain\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="src\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="domain\" />
+      <None Remove="domain\**" />
     </ItemGroup>
 
 </Project>
