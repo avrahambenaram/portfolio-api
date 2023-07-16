@@ -10,7 +10,7 @@ public class User : Entity
     public readonly string Email;
     public readonly string Password;
     
-    public User(string avatar, string name, string email, string password, EntityProps? entityProps) : base(entityProps)
+    public User(string avatar, string name, string email, string password, EntityProps? entityProps = null) : base(entityProps)
     {
         this.Avatar = avatar;
         this.Name = new Name(name).Value;
