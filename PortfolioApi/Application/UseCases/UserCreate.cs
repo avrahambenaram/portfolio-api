@@ -44,7 +44,7 @@ public class UserCreate
 
     private void VerifyUserExistence(string userEmail)
     {
-        var userFound = this._userRepository.FindById(userEmail);
+        var userFound = this._userRepository.FindByEmail(userEmail);
         if (userFound != null)
             throw new UseCaseError("User already exists", 403);
     }

@@ -21,4 +21,8 @@
       <ProjectReference Include="..\PortfolioApi\PortfolioApi.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="UnitTest1.cs" />
+    </ItemGroup>
+
 </Project>
