@@ -5,7 +5,7 @@ namespace PortfolioApi.Application.Services.implementations;
 
 public class UsersCode : IUsersCode
 {
-    private readonly List<UserCodeDto> _userCodes = new List<UserCodeDto>();
+    private readonly List<UserCodeDto> _userCodes = new();
 
     public string GenerateCode()
     {

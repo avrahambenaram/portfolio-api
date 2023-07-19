@@ -120,8 +120,8 @@ public class UserCreateTest
         );
         _userCreate.Execute(props);
 
-        var code = this._usersCode.FindByEmail("user@example.com");
+        var code = _usersCode.FindByEmail("avraham@example.com");
         
-        Assert.That(code.User.Email, Is.EqualTo("user@example.com"));
+        Assert.That(code.User.Email, Is.EqualTo("avraham@example.com"));
     }
 }
