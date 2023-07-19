@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0c60c28f_002Dbe30_002D4a5b_002Db791_002D35add497c084/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserCreateTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::06B7CC84-922C-4497-BF68-ED1BFC7F84B7::net7.0::PortfolioApiTests.Application.UseCases.UserCreateTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::06B7CC84-922C-4497-BF68-ED1BFC7F84B7::net7.0::PortfolioApiTests.Application.UseCases.UserCreateConfirmTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::06B7CC84-922C-4497-BF68-ED1BFC7F84B7::net7.0::PortfolioApiTests.Application.UseCases.UserDeleteUseCase&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
