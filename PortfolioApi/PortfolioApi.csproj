@@ -25,6 +25,7 @@
     <ItemGroup>
       <Compile Remove="src\**" />
       <Compile Remove="domain\**" />
+      <Compile Include="Domain\Entities\Project.cs" />
       <Compile Include="Domain\Entities\User.cs" />
       <Compile Include="Domain\ValueObjects\Email.cs" />
       <Compile Include="Domain\ValueObjects\Name.cs" />
