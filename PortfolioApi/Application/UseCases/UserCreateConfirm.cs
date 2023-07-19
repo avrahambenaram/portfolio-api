@@ -27,6 +27,11 @@ public class UserCreateConfirm
     public UserCreateConfirmResponseDto Execute(UserCreateConfirmDto props)
     {
         var userCode = _usersCode.FindByEmail(props.Email);
+        if (userCode == null)
+        {
+            _result.Message = "Não há um código em espera";
+            return _result;
+        }
         if (userCode.Code == props.Code)
         {
            this.CreateUser(userCode);

@@ -45,12 +45,9 @@ public class UsersCode : IUsersCode
         _userCodes.Add(userCode);
     }
 
-    public UserCodeDto FindByEmail(string email)
+    public UserCodeDto? FindByEmail(string email)
     {
-        var userCode = _userCodes.Find(userCode => userCode.User.Email == email);
-        if (userCode == null)
-            throw new ErrorException("Code not found", 404);
-        return userCode;
+        return _userCodes.Find(userCode => userCode.User.Email == email);
     }
 
     public void Delete(string email)
